@@ -21,14 +21,14 @@ const Features = () => {
               Sustainably grown, robust, and diverse – our perennials and
               grasses combine beauty with ecological responsibility.
             </p> */}
-            <p className=" text-muted-foreground text-sm leading-7 xl:text-base">
+            <p className=" text-muted-foreground text-sm leading-7 xl:text-base text-justify">
               Nachhaltig angebaut, robust & artenreich – unsere Stauden und
               Gräser vereinen Schönheit mit ökologischer Verantwortung.
             </p>
           </div>
 
           {/* right section */}
-          <div className="flex gap-2 xl:gap-4 justify-center flex-col lg:flex-row ">
+          <div className="flex gap-4 justify-center flex-col lg:flex-row text-justify">
             <div
               className="max-w-[400px] mx-auto
              bg-white flex flex-col gap-2 p-6 pb-2  rounded-lg transition-all ease-linear duration-300 shadow-lg hover:scale-[101%] hover:-rotate-1 "
@@ -43,7 +43,7 @@ const Features = () => {
                 />
               </div>
 
-              <p className="mb-2 text-muted-foreground text-sm leading-7 xl:text-base">
+              <p className="mb-2 text-muted-foreground text-sm leading-7 xl:text-base ">
                 Unsere Gräser bringen Struktur und Bewegung in jeden Garten und
                 sind das ganze Jahr über interessant.
               </p>

@@ -10,14 +10,14 @@ const VideoSection = () => {
     setOpenModal(false);
   };
   return (
-    <section className="bg-yellow-50/50 py-12 md:py-16 lg:py-24 backdrop-blur-2xl">
-      <div className="flex flex-col justify-center items-center text-center gap-4 px-4 z-30 ">
+    <section className="bg-yellow-50/50 py-12 md:py-16 lg:py-24 backdrop-blur-2xl ">
+      <div className="flex flex-col justify-center items-center text-center gap-4 z-30  ">
         <div className=" flex flex-col max-w-7xl">
-          <p className="mb-2 font-semibold text-blue-900">Wir erreichen Sie</p>
+          <p className="mb-2 font-semibold text-blue-900 px-2">Wir erreichen Sie</p>
           {/* <p className="mb-2 font-semibold text-blue-900">
             Reaching Out To You
           </p> */}
-          <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 text-priColor">
+          <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 px-2 text-priColor">
             Anpassungsfähigkeit und Erfolg
           </h2>
           {/* <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 text-priColor">
@@ -25,11 +25,11 @@ const VideoSection = () => {
           </h2> */}
         </div>
 
-        <div className="relative max-w-[800px] flex justify-center  overflow-hidden ">
-          <img className=" rounded-2xl" src="/image1.jpg" alt="" />
+        <div className=" w-full flex justify-center padding">
+          <img className="rounded-2xl max-w-7xl  overflow-hidden aspect-video object-cover" src="/image1.jpg" alt="" />
           <div
             onClick={() => setOpenModal(true)}
-            className="absolute top-[40%] bg-blue-600 rounded-full w-20 h-20 justify-center items-center flex cursor-pointer"
+            className="absolute top-[50%] bg-blue-600 rounded-full w-20 h-20 justify-center items-center flex cursor-pointer"
           >
             <div className="absolute bg-blue-600 w-20 h-20 rounded-full animate-ping"></div>
             <div className="flex justify-center items-center">

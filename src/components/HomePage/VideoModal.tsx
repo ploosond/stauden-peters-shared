@@ -1,4 +1,3 @@
-
 const VideoModal = ({
   open,
   onClose,
@@ -9,23 +8,24 @@ const VideoModal = ({
   if (!open) return null;
 
   return (
-    <div className=" fixed h-screen w-full bg-black/50 transition-all duration-300 ease-in backdrop-blur-sm top-0 left-0 z-30 overscroll-y-none">
-      <div className="p-4 relative top-[30%] lg:top-[20%] w-full h-72 sm:w-[620px] sm:h-[360px] lg:w-[825px] lg:h-[550px] m-auto  ">
+    <div className="absolute inset-0 z-30 bg-black/50 backdrop-blur-sm flex justify-center items-center overflow-hidden">
+      <div className="relative w-full max-w-[1024px] aspect-video px-2">
         <iframe
-          className="relative w-full h-full rounded-xl "
+          className="w-full h-full rounded-xl"
           src="https://www.youtube.com/embed/5clOYWsNhhk?si=WMHSGYGSkX5IOQwx"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
 
+        {/* Close Button */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8 absolute -top-5 right-4 cursor-pointer text-white rounded-full"
+          className="w-8 h-8 absolute -top-8 right-1 cursor-pointer text-white"
           onClick={onClose}
         >
           <path

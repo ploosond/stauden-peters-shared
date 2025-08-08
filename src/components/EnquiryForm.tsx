@@ -34,8 +34,8 @@ const EnquiryForm = () => {
   });
 
   async function handleForm(data: TEnquiryFormSchema) {
-    setIsUploading(true)
-console.log(data)
+    setIsUploading(true);
+    console.log(data);
     // const resp = await enquiry(data);
     // if (resp.message && locale === "en") {
     //   setSuccess(resp?.message);
@@ -47,7 +47,7 @@ console.log(data)
     //   setError("Sie haben Anfragen, die noch zu klären sind!");
     // }
 
-    setIsUploading(false)
+    setIsUploading(false);
     // form.reset()
     alert("form submitted!");
   }
@@ -63,7 +63,7 @@ console.log(data)
               name="name"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-muted-foreground text-sm">
+                  <FormLabel className="text-muted-foreground text-sm xl:text-base">
                     {locale === "en" ? "Full Name" : "Vollständiger Name"}
                   </FormLabel>
                   <FormControl>
@@ -84,7 +84,7 @@ console.log(data)
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-muted-foreground text-sm">
+                  <FormLabel className="text-muted-foreground text-sm xl:text-base">
                     {locale === "en" ? "Email" : "E-mail"}
                   </FormLabel>
                   <FormControl>
@@ -105,7 +105,7 @@ console.log(data)
               name="telephone"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-muted-foreground text-sm">
+                  <FormLabel className="text-muted-foreground text-sm xl:text-base">
                     {locale === "en" ? "Telephone" : "Telefon"}
                   </FormLabel>
                   <FormControl>
@@ -132,7 +132,7 @@ console.log(data)
               name="message"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-muted-foreground text-sm">
+                  <FormLabel className="text-muted-foreground text-sm xl:text-base">
                     {locale === "en" ? "Message" : "Nachricht"}
                   </FormLabel>
                   <FormControl>
@@ -152,7 +152,7 @@ console.log(data)
             />
 
             <Button
-              className="bg-priColor hover:bg-blue-600 cursor-pointer"
+              className="bg-priColor hover:bg-blue-600 cursor-pointer xl:text-base"
               type="submit"
               disabled={isUploading}
             >

@@ -16,9 +16,9 @@ const Services = () => {
       </div>
 
       {/* section2 */}
-      <div className="flex justify-center flex-wrap gap-2 xl:gap-4">
+      <div className="flex justify-center flex-wrap gap-4 text-justify">
         <div
-          className="relative  max-w-[440px]  p-4 px-10 
+          className="relative max-w-[440px] p-4 px-10 
                    shadow-[0_1px_10px_0px_rgba(0,0,0,0.3)]
                    min-h-[250px] rounded-2xl 
                    before:content-[''] before:absolute before:left-0  before:bg-blue-900 before:w-1.5 
@@ -48,7 +48,7 @@ const Services = () => {
         </div>
 
         <div
-          className="relative flex max-w-[440px]  p-4 px-10 
+          className="relative flex max-w-[440px]  p-4 px-10  
                    shadow-[0_1px_10px_0px_rgba(0,0,0,0.3)]
                    min-h-[250px] rounded-2xl 
                    before:content-[''] before:absolute before:left-0  before:bg-blue-900 before:w-1.5 
@@ -63,10 +63,9 @@ const Services = () => {
                 <span className="text-priColor mr-2">Regional </span>
                 Sachverstand
               </h2>
-   
             </div>
 
-            <p className="mb-4 text-muted-foreground  text-sm xl:text-base leading-7">
+            <p className="mb-4 text-muted-foreground  text-sm xl:text-base leading-7 ">
               Unsere Pflanzen sind im einzigartigen Klima des Niederrheins
               verwurzelt und auf Widerstandsfähigkeit und lokale
               Anpassungsfähigkeit gezüchtet.
@@ -75,7 +74,7 @@ const Services = () => {
         </div>
 
         <div
-          className="relative  md:max-w-[440px]  p-4 px-10 
+          className="relative max-w-[440px]  p-4 px-10 
                    shadow-[0_1px_10px_0px_rgba(0,0,0,0.3)]
                    min-h-[250px] rounded-2xl 
                    before:content-[''] before:absolute before:left-0  before:bg-blue-900 before:w-1.5 

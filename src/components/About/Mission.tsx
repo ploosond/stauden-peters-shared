@@ -5,7 +5,7 @@ import { Sprout, Globe2 } from "lucide-react";
 
 const Mission = () => {
   const activeClass =
-    "flex flex-col gap-4 items-center text-blue-900  justify-center w-full h-40 transition duration-300 ease-in ";
+    "flex flex-col gap-1 items-center text-blue-900  justify-center w-full h-30 transition duration-300 ease-in ";
   const updatedClass = activeClass + " bg-priColor text-white";
 
   const [div1, setDiv1] = useState(updatedClass);
@@ -39,9 +39,9 @@ const Mission = () => {
           </h2> */}
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-10 mt-6 justify-center items-center lg:items-start w-full">
-          <div className="flex  flex-col gap-6 lg:max-w-3xl">
-            <p className="text-muted-foreground text-center lg:text-start text-sm leading-7 xl:text-base">
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 mt-6 justify-center items-center lg:items-start w-full">
+          <div className="flex  flex-col gap-6 max-w-5xl">
+            <p className="text-muted-foreground text-justify  text-sm leading-7 xl:text-base ">
               Die Wurzeln von Stauden Peters reichen zurück bis ins Jahr 1953,
               als Großvater Theo Peters mit dem Anbau von Schnittblumen begann –
               insbesondere mit prachtvollen Gladiolen. Schon damals war seine
@@ -57,7 +57,7 @@ const Mission = () => {
             </p> */}
             <div className="flex flex-col sm:flex-row items-center gap-10 mx-auto lg:mx-0">
               <div className="flex flex-col lg:flex-row items-center lg:items-end lg:gap-4">
-                <div className="h-36 rounded-md sm:w-36 sm:h-36 overflow-hidden ">
+                <div className="h-32 rounded-md xl:w-36 xl:h-36 overflow-hidden ">
                   <img
                     className="w-full h-full  hover:scale-[102%] duration-300 object-cover transition-all"
                     src="/MainTeam/Klaus.jpg"
@@ -77,7 +77,7 @@ const Mission = () => {
             </div>
           </div>
 
-          <div className=" bg-white sm:min-w-[500px] max-w-[600px] h-fit  flex-col gap-2  shadow-[0_1px_10px_0px_rgba(0,0,0,0.3)] rounded-3xl">
+          <div className=" bg-white sm:min-w-[500px] max-w-3xl h-fit  flex-col gap-2  shadow-[0_1px_10px_0px_rgba(0,0,0,0.3)] rounded-3xl">
             <div className="relative flex justify-between">
               <div
                 onClick={handleChange1}
@@ -85,7 +85,7 @@ const Mission = () => {
               >
                 {/* <img className="w-12" src="/mission.png" alt="" /> */}
                 <Sprout className="size-12 stroke-1" />
-                <h4 className="text-lg font-semibold">Mission</h4>
+                <h4 className="font-semibold">Mission</h4>
               </div>
               <div
                 onClick={handleChange2}
@@ -93,14 +93,14 @@ const Mission = () => {
               >
                 <Globe2 className="size-12 stroke-1 " />
 
-                <h4 className="text-lg font-semibold">Vision</h4>
+                <h4 className=" font-semibold">Vision</h4>
               </div>
 
               <hr className="absolute bottom-0 w-full" />
             </div>
 
             {div1 === updatedClass ? (
-              <div className="p-8 text-gray-500 leading-7 text-sm xl:text-base">
+              <div className="p-8 text-gray-500 leading-7 text-sm xl:text-base text-justify">
                 Nachhaltigkeit ist für uns kein Trend, sondern eine Überzeugung.
                 Unser Ziel ist es, langfristig alle Produkte nach den
                 EU-Bio-Zertifizierungsregeln zu produzieren – so wie wir es
@@ -110,7 +110,7 @@ const Mission = () => {
               // <div className="p-8 text-gray-500 leading-7 text-sm">
               //   Sustainability is not a trend for us—it is a core belief. We are committed to producing all our plants in line with EU organic certification regulations, a goal we have already achieved for perennials since 2024.
               // </div>
-              <div className="p-8 text-gray-500 leading-7 text-sm xl:text-base">
+              <div className="p-8 text-gray-500 leading-7 text-sm xl:text-base text-justify">
                 Darüber hinaus arbeiten wir an zukunftsweisenden Projekten, wie
                 der Gartenstadt Kranenburg und einem Naturpark, der
                 CO₂-Kompensierung mit Naherholungsmöglichkeiten für die

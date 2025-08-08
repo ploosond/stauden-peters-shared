@@ -11,7 +11,7 @@ import VideoSection from "@/components/HomePage/VideoSection";
 
 export default async function Home() {
   return (
-    <div className="overflow-hidden flex flex-col">
+    <div className="overflow-hidden flex flex-col mt-[65px]">
       <HeroSlider />
       <AboutBrief />
       <Features />

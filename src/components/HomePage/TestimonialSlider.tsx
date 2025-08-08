@@ -11,7 +11,7 @@ const TestimonialSlider = () => {
       slidesPerView={1}
       breakpoints={{
         640: { slidesPerView: 2 },
-        1280: { slidesPerView: 3 },
+        1024: { slidesPerView: 3 },
         1536: { slidesPerView: 4 },
       }}
       modules={[Autoplay, Pagination]}
@@ -51,7 +51,7 @@ const TestimonialSlider = () => {
                   </span>
                 </div>
               </div>
-              <p className="text-muted-foreground text-sm leading-7">
+              <p className="text-muted-foreground text-sm leading-7 text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
                 quidem ea necessitatibus voluptates aliquid rerum officiis
                 explicabo laborum molestiae id.

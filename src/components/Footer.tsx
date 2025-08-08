@@ -97,7 +97,7 @@ const footer = () => {
 
           {/* CLOUMN-4 */}
 
-          <div className="col-span-4 md:col-span-4 lg:col-span-4">
+          <div className="col-span-4">
             <div className="flex gap-2">
               <img
                 src={"/footer/mask.svg"}
@@ -105,9 +105,11 @@ const footer = () => {
                 width={15}
                 height={15}
               />
-              <h5 className="text-sm  text-white">
-                Drüller Weg 14, 47559 Kranenburg, Germany
-              </h5>
+              <div className="text-sm text-white">
+                <p>Drüller Weg 14</p>
+                <p>47559 Kranenburg</p>
+                <p>Germany</p>
+              </div>
             </div>
             <div className="flex gap-2 mt-6">
               <img

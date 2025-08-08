@@ -4,7 +4,7 @@ const Locations = () => {
   const locations = [
     {
       id: 1,
-      name: "Stauden Peters GbR, Germany",
+      name: "Stauden Peters Pflanzenvertriebs-GmbH",
       address: "Drüller Weg 14, 47559 Kranenburg, Germany",
       phone: "(217) 555-0123",
       hours: "Mon-Sat: 8AM-6PM, Sun: 10AM-4PM",

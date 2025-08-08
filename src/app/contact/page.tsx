@@ -13,36 +13,37 @@ import EnquiryForm from "@/components/EnquiryForm";
 
 const Page = async () => {
   return (
-    <section className="container mt-10 lg:mt-14 py-12 md:py-16 lg:py-20">
+    <section className="mt-10 lg:mt-14 py-12 md:py-16 lg:py-20 padding">
       <div className="">
         <div className="text-center max-w-3xl mx-auto">
           <p className="mb-2 font-semibold text-blue-900 ">
-          Haben Sie Fragen? Wir haben die Lösungskompetenz.
+            Haben Sie Fragen? Wir haben die Lösungskompetenz.
           </p>
           {/* <p className="mb-2 font-semibold text-blue-900 ">
             Have Questions? We’re Rooted in Solutions.
           </p> */}
           <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 text-priColor">
-          Kontakt
+            Kontakt
           </h2>
           {/* <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 text-priColor">
             Contact Us
           </h2> */}
         </div>
-        <div className=" grid md:grid-cols-2 gap-10 md:gap-0  md:mt-10">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-0  md:mt-10">
           {/* left section */}
-          <div className="flex flex-col px-4 sm:px-8 py-10">
+          <div className="flex flex-col px-4 sm:px-8 py-10  text-sm xl:text-base">
             {/* address section */}
 
             <div className=" space-y-8 pb-4 flex flex-col text-muted-foreground">
-              <p className="flex items-center gap-2">
+              <div className="flex items-center gap-2">
                 <FaLocationDot size={18} />
 
-                <span className="mx-2 text-sm ">
-                  Drüllerweg14, 47559, Kranenburg,
-                  <br /> Germany
+                <span className="mx-2 ">
+                  <p>Drüller Weg 14</p>
+                  <p>47559 Kranenburg</p>
+                  <p>Germany</p>
                 </span>
-              </p>
+              </div>
               <div className="flex items-center gap-2">
                 <FaPhoneAlt size={14} />
                 <Link
@@ -50,7 +51,7 @@ const Page = async () => {
                   className="flex gap-2  items-center
                   "
                 >
-                  <p className="mx-2 text-sm">+49 02826 91 50-0</p>
+                  <p className="mx-2">+49 02826 91 50-0</p>
                 </Link>
               </div>
               <div className="flex items-center gap-2">
@@ -59,7 +60,7 @@ const Page = async () => {
                   href={"mailto:info@stauden-peters.de"}
                   className="inline-block gap-2  items-center "
                 >
-                  <span className="mx-2 text-sm">info@stauden-peters.de</span>
+                  <span className="mx-2 ">info@stauden-peters.de</span>
                 </Link>
               </div>
             </div>
@@ -72,7 +73,7 @@ const Page = async () => {
                 href=""
                 target="_blank"
               >
-                <FaLinkedinIn size={20} />
+                <FaLinkedinIn size={22} />
               </Link>
 
               <Link
@@ -102,17 +103,15 @@ const Page = async () => {
           </div>
 
           {/* right section */}
-          <div className="">
-            <div className="w-full px-4 py-10 sm:px-8 mx-auto rounded-lg shadow-2xl max-w-xl shadow-gray-300/50">
-              <h6 className="font-medium  pb-4 text-sm text-blue-900 text-center">
+          <div className="w-full px-4 py-10 sm:px-8 mx-auto rounded-lg shadow-2xl max-w-4xl shadow-gray-300/50">
+            <h6 className="font-medium  pb-4 text-sm xl:text-base text-blue-900 text-center">
               Was möchten Sie fragen?
-              </h6>
-              {/* <h6 className="font-medium  pb-4 text-sm text-blue-900 text-center">
+            </h6>
+            {/* <h6 className="font-medium  pb-4 text-sm text-blue-900 text-center">
                 What do you want to ask?
               </h6> */}
 
-              <EnquiryForm />
-            </div>
+            <EnquiryForm />
           </div>
         </div>
       </div>

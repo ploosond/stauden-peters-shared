@@ -3,7 +3,7 @@ import TestimonialSlider from "./TestimonialSlider";
 const Testimonials = () => {
   return (
     <>
-      <div className="container py-12 md:py-16 lg:py-24">
+      <div className="py-12 md:py-16 lg:py-24">
         <div className="text-center mb-10">
           <p className="mb-2 font-semibold text-blue-900 ">
             Was sie über uns sagen

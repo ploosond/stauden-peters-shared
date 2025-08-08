@@ -30,15 +30,16 @@ const Carousel = ({
     <>
       <div>
         <Swiper
-          spaceBetween={10}
+          spaceBetween={0}
           slidesPerView={slidesPerView}
           loop={true}
           centeredSlides={false}
           autoplay={{
-            delay: 2000,
+            delay: 5000,
             disableOnInteraction: false,
           }}
           // navigation
+          pagination
           // pagination={{
           //   clickable: true,
           // }}
@@ -49,11 +50,13 @@ const Carousel = ({
         >
           {slides.map((image, index) => (
             <SwiperSlide key={index}>
-              <div className="flex h-full w-full items-center justify-center">
+              <div
+                className={`flex h-[calc(100vh-65px)] w-full items-center justify-center`}
+              >
                 <img
                   src={image.image}
                   alt={image.title}
-                  className="block h-full w-full object-cover"
+                  className="block h-full w-full object-cover object-left-top"
                 />
               </div>
             </SwiperSlide>
