@@ -3,27 +3,31 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   return (
     <div>
-      <div className="flex flex-col mt-10 lg:mt-14 py-12 md:py-16 lg:py-20 container">
+      <div className="padding xl:flex-row gap-16 py-12 md:py-16 xl:py-24 text-center xl:text-left items-stretch w-full max-w-[2000px] mx-auto">
         <div className="flex flex-col text-center max-w-3xl mx-auto pb-8">
           <p className="mb-2 font-semibold text-blue-900 ">
-          Wo Gräser gedeihen und Stauden blühen.
+            Wo Gräser gedeihen und Stauden blühen.
           </p>
           {/* <p className="mb-2 font-semibold text-blue-900 ">
             Where Grasses Flourish and Perennials Bloom.
           </p> */}
           <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 text-priColor">
-            
-Unsere Projekte
+            Unsere Projekte
           </h2>
           {/* <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 text-priColor">
             Our Projects
           </h2> */}
           <p className="flex-wrap text-muted-foreground text-sm leading-7">
-          Entdecken Sie erstklassige Stauden und Gräser an unseren sorgfältig ausgewählten Standorten – das Beste aus der Natur direkt zu Ihnen nach Hause.
+            Entdecken Sie erstklassige Stauden und Gräser an unseren sorgfältig
+            ausgewählten Standorten – das Beste aus der Natur direkt zu Ihnen
+            nach Hause.
           </p>
 
           <p className="  flex-wrap text-muted-foreground text-sm  leading-7 ">
-          Mit Standorten im ganzen Land sind wir stolz darauf, Gartenliebhaber und Profis gleichermaßen zu bedienen. Jede unserer Gärtnereien bietet erstklassige Pflanzen, kompetente Beratung und eine Leidenschaft für grünes Leben.
+            Mit Standorten im ganzen Land sind wir stolz darauf, Gartenliebhaber
+            und Profis gleichermaßen zu bedienen. Jede unserer Gärtnereien
+            bietet erstklassige Pflanzen, kompetente Beratung und eine
+            Leidenschaft für grünes Leben.
           </p>
           {/* <p className="flex-wrap text-muted-foreground text-sm leading-7">
             Discover Premium Perennials & Grasses at our carefully curated

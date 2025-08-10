@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 // Define a proper type for the slide data
 interface Slide {
   image: string;
+  imageMobile: string;
   title: string;
 }
 
@@ -50,13 +51,16 @@ const Carousel = ({
         >
           {slides.map((image, index) => (
             <SwiperSlide key={index}>
-              <div
-                className={`flex h-[calc(100vh-65px)] w-full items-center justify-center`}
-              >
+              <div className="w-full h-[94vh] relative">
+                <img
+                  src={image.imageMobile}
+                  alt={image.title}
+                  className="w-full h-full object-cover block md:hidden"
+                />
                 <img
                   src={image.image}
                   alt={image.title}
-                  className="block h-full w-full object-cover object-left-top"
+                  className="w-full h-full object-cover hidden md:block"
                 />
               </div>
             </SwiperSlide>

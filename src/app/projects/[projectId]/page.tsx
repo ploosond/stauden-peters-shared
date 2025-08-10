@@ -5,7 +5,7 @@ const ProjectPage = () => {
   // Sample project data - replace with your CMS/data source
   const project = {
     title: "Urban Meadow Transformation",
-    location: "City Park, Chicago, IL",
+    location: "47559 Kranenburg",
     type: "Public Space",
     size: "2.5 Acres",
     duration: "8 Weeks",

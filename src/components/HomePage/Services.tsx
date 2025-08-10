@@ -39,7 +39,7 @@ const Services = () => {
               </h2>
             </div>
 
-            <p className="mb-4 text-muted-foreground  text-sm xl:text-base leading-7">
+            <p className="py-4 text-muted-foreground  text-center  text-sm xl:text-base leading-7">
               Jede Pflanze wird mit umweltbewussten Methoden angebaut, um die
               Artenvielfalt und die Bodengesundheit für zukünftige Generationen
               zu schützen.
@@ -65,7 +65,7 @@ const Services = () => {
               </h2>
             </div>
 
-            <p className="mb-4 text-muted-foreground  text-sm xl:text-base leading-7 ">
+            <p className="py-4 text-muted-foreground text-center text-sm xl:text-base leading-7 ">
               Unsere Pflanzen sind im einzigartigen Klima des Niederrheins
               verwurzelt und auf Widerstandsfähigkeit und lokale
               Anpassungsfähigkeit gezüchtet.
@@ -97,7 +97,7 @@ const Services = () => {
             {/* <p className="mb-4 text-muted-foreground  text-sm leading-7">
             From seed to sale, we hand-select only the healthiest grasses and perennials, ensuring vigor and longevity.
             </p> */}
-            <p className="mb-4 text-muted-foreground  text-sm xl:text-base leading-7">
+            <p className="py-4 text-muted-foreground text-center text-sm xl:text-base leading-7">
               Von der Saat bis zum Verkauf wählen wir von Hand nur die
               gesündesten Gräser und Stauden aus, um Vitalität und Langlebigkeit
               zu gewährleisten.

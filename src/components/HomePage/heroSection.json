@@ -1,51 +1,58 @@
 [
-    {
-      "image": "/HeroSection/1.jpg",
-      "title": "Avatar: The Way of Water",
-      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-      "interval": 1500
-    },
-    {
-      "image": "/HeroSection/2.jpg",
-      "title": "Avatar: The Way of Water",
-      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-      "interval": 1500
-    },
-    {
-      "image": "/HeroSection/3.jpg",
-      "title": "Avatar: The Way of Water",
-      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-      "interval": 1500
-    },
-    {
-      "image": "/HeroSection/4.jpg",
-      "title": "Avatar: The Way of Water",
-      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-      "interval": 1500
-    },
-    {
-      "image": "/HeroSection/5.jpg",
-      "title": "Avatar: The Way of Water",
-      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-      "interval": 1500
-    },
-    {
-      "image": "/HeroSection/6.jpg",
-      "title": "Avatar: The Way of Water",
-      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-      "interval": 1500
-    },
-    {
-      "image": "/HeroSection/7.jpg",
-      "title": "Avatar: The Way of Water",
-      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-      "interval": 1500
-    },
-    {
-      "image": "/HeroSection/8.jpg",
-      "title": "Avatar: The Way of Water",
-      "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-      "interval": 1500
-    }
-    
-  ]
+  {
+    "image": "/HeroSection/desktop/01.jpg",
+    "imageMobile": "/HeroSection/mobile/01.jpg",
+    "title": "Avatar: The Way of Water",
+    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "interval": 1500
+  },
+  {
+    "image": "/HeroSection/desktop/02.jpg",
+    "imageMobile": "/HeroSection/mobile/02.jpg",
+    "title": "Avatar: The Way of Water",
+    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "interval": 1500
+  },
+  {
+    "image": "/HeroSection/desktop/03.jpg",
+    "imageMobile": "/HeroSection/mobile/03.jpg",
+    "title": "Avatar: The Way of Water",
+    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "interval": 1500
+  },
+  {
+    "image": "/HeroSection/desktop/04.jpg",
+    "imageMobile": "/HeroSection/mobile/04.jpg",
+    "title": "Avatar: The Way of Water",
+    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "interval": 1500
+  },
+  {
+    "image": "/HeroSection/desktop/05.jpg",
+    "imageMobile": "/HeroSection/mobile/05.jpg",
+    "title": "Avatar: The Way of Water",
+    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "interval": 1500
+  },
+  {
+    "image": "/HeroSection/desktop/06.jpg",
+    "imageMobile": "/HeroSection/mobile/06.jpg",
+    "title": "Avatar: The Way of Water",
+    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "interval": 1500
+  },
+  {
+    "image": "/HeroSection/desktop/07.jpg",
+    "imageMobile": "/HeroSection/mobile/07.jpg",
+    "title": "Avatar: The Way of Water",
+    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "interval": 1500
+  },
+  {
+    "image": "/HeroSection/desktop/08.jpg",
+    "imageMobile": "/HeroSection/mobile/08.jpg",
+    "title": "Avatar: The Way of Water",
+    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+    "interval": 1500
+  }
+]

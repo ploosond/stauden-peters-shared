@@ -55,7 +55,7 @@ const Mission = () => {
             {/* <p className="text-muted-foreground text-center lg:text-start text-sm leading-7">
             Stauden Peters has deep roots that stretch back to 1953 when Grandfather Theo Peters began cultivating cut flowers, particularly magnificent gladioli. His passion for plants was evident from the very beginning. Over time, the business evolved, and in 1970, we expanded into the production of perennials and grasses for the European mail-order market. Since then, we have focused on robust, long-lasting plants that enhance both private gardens and large landscaping projects.
             </p> */}
-            <div className="flex flex-col sm:flex-row items-center gap-10 mx-auto lg:mx-0">
+            {/* <div className="flex flex-col sm:flex-row items-center gap-10 mx-auto lg:mx-0">
               <div className="flex flex-col lg:flex-row items-center lg:items-end lg:gap-4">
                 <div className="h-32 rounded-md xl:w-36 xl:h-36 overflow-hidden ">
                   <img
@@ -74,7 +74,7 @@ const Mission = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className=" bg-white sm:min-w-[500px] max-w-3xl h-fit  flex-col gap-2  shadow-[0_1px_10px_0px_rgba(0,0,0,0.3)] rounded-3xl">

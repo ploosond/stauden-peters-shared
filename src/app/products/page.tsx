@@ -15,13 +15,13 @@ const ProductsPage = () => {
   const products = [
     {
       id: "1",
-      name: "Blue Fescue Grass",
-      subName: "Karl Foerster",
+      name: "Acorus Gramineus",
+      subName: "Ogon",
       category: "elegrass",
       size: "L",
       light: "Sun",
-      color: "Variegated",
-      image: "/about-us.jpg",
+      color: "#6a844a",
+      image: "/product_01.jpg",
     },
     {
       id: "2",
@@ -30,7 +30,7 @@ const ProductsPage = () => {
       category: "elegardens",
       size: "M",
       light: "Half Shadow",
-      color: "Yellow",
+      color: "#748f3b",
       image: "/about-us.jpg",
     },
     {
@@ -40,7 +40,7 @@ const ProductsPage = () => {
       category: "elerose",
       size: "M",
       light: "Half Shadow",
-      color: "Yellow",
+      color: "#a6c338",
       image: "/about-us.jpg",
     },
     {
@@ -50,7 +50,7 @@ const ProductsPage = () => {
       category: "elegrass",
       size: "M",
       light: "Half Shadow",
-      color: "Yellow",
+      color: "#647867",
       image: "/about-us.jpg",
     },
     {
@@ -60,7 +60,7 @@ const ProductsPage = () => {
       category: "elegardens",
       size: "M",
       light: "Half Shadow",
-      color: "Yellow",
+      color: "#875b72",
       image: "/about-us.jpg",
     },
     {
@@ -70,7 +70,127 @@ const ProductsPage = () => {
       category: "elerose",
       size: "M",
       light: "Half Shadow",
-      color: "Yellow",
+      color: "#3b5833",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "7",
+      name: "Blue Fescue Grass",
+      subName: "Karl Foerster",
+      category: "elegrass",
+      size: "L",
+      light: "Sun",
+      color: "#6a844a",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "8",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elegardens",
+      size: "M",
+      light: "Half Shadow",
+      color: "#748f3b",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "9",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elerose",
+      size: "M",
+      light: "Half Shadow",
+      color: "#a6c338",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "10",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elegrass",
+      size: "M",
+      light: "Half Shadow",
+      color: "#647867",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "11",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elegardens",
+      size: "M",
+      light: "Half Shadow",
+      color: "#875b72",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "12",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elerose",
+      size: "M",
+      light: "Half Shadow",
+      color: "#3b5833",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "13",
+      name: "Blue Fescue Grass",
+      subName: "Karl Foerster",
+      category: "elegrass",
+      size: "L",
+      light: "Sun",
+      color: "#a6c338",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "14",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elegardens",
+      size: "M",
+      light: "Half Shadow",
+      color: "#647867",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "15",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elerose",
+      size: "M",
+      light: "Half Shadow",
+      color: "#a6c338",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "16",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elegrass",
+      size: "M",
+      light: "Half Shadow",
+      color: "#875b72",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "17",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elegardens",
+      size: "M",
+      light: "Half Shadow",
+      color: "#a6c338",
+      image: "/about-us.jpg",
+    },
+    {
+      id: "18",
+      name: "Black-Eyed Susan",
+      subName: "Goldsturm",
+      category: "elerose",
+      size: "M",
+      light: "Half Shadow",
+      color: "#647867",
       image: "/about-us.jpg",
     },
     // Add more products...
@@ -103,7 +223,7 @@ const ProductsPage = () => {
   });
 
   return (
-    <div className="container mt-10 lg:mt-14 py-12 md:py-16 lg:py-20">
+    <div className="padding xl:flex-row gap-16 py-12 md:py-16 xl:py-24 text-center xl:text-left items-stretch w-full max-w-[2000px] mx-auto">
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto mb-6 sm:mb-8">
         <p className="mb-2 font-semibold text-blue-900 ">
@@ -113,14 +233,17 @@ const ProductsPage = () => {
           Sustainable premium plants – straight from the Lower Rhine
         </p> */}
         <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 text-priColor">
-        Unsere Produkte
+          Unsere Produkte
         </h2>
         {/* <h2 className="text-3xl font-semibold lg:font-bold lg:text-4xl mb-2 text-priColor">
           Our Products
         </h2> */}
         <p className="flex-wrap text-muted-foreground text-sm leading-7">
-        Von sonnenliebend bis schattenverträglich: Unsere Stauden begeistern mit langer Blütezeit und ökologischem Nutzen. Unsere Pfingstrosen überzeugen mit üppigen Blüten und Langlebigkeit – ein Investment für Generationen.
-        </p> 
+          Von sonnenliebend bis schattenverträglich: Unsere Stauden begeistern
+          mit langer Blütezeit und ökologischem Nutzen. Unsere Pfingstrosen
+          überzeugen mit üppigen Blüten und Langlebigkeit – ein Investment für
+          Generationen.
+        </p>
         {/* <p className="flex-wrap text-muted-foreground text-sm leading-7">
           At Stauden Peters, we are passionate about cultivating high-quality
           perennials and grasses that enrich landscapes and ecosystems. Rooted
@@ -317,7 +440,8 @@ const ProductsPage = () => {
               No plants found matching your criteria
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-content-center place-items-center w-full">
+            // <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-content-center place-items-center w-full ">
+            <div className="grid grid-cols-1 gap-4 gap-y-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
               {filteredProducts.map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}

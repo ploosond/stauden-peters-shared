@@ -1,7 +1,7 @@
 const AboutBrief = () => {
   return (
     <>
-      <div className="padding flex flex-col xl:flex-row gap-6 py-12 md:py-16 xl:py-24 text-center xl:text-left items-stretch w-full max-w-[2000px] mx-auto">
+      <div className="padding flex flex-col xl:flex-row gap-16 py-12 md:py-16 xl:py-24 text-center xl:text-left items-stretch w-full max-w-[2000px] mx-auto">
         {/* left side */}
         <div className="w-full xl:w-1/2 ">
           {/* <p className="mb-2 font-semibold text-blue-900 ">Our Story</p> */}

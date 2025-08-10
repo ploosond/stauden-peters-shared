@@ -2,6 +2,15 @@ import React from "react";
 
 const people = [
   {
+    id: 0,
+    name: "Klaus Peters",
+    phone: "+49 (0)28 26 / 91 50 - 0",
+    email: "klaus.peters@stauden-peters.de",
+    positionDe: "CEO",
+    positionEn: "CEO",
+    image: "/MainTeam/Klaus.jpg",
+  },
+  {
     id: 1,
     name: "Rafal Dudek",
     phone: "+49 (0)28 26 / 91 50 - 0",
@@ -120,15 +129,6 @@ const people = [
   },
   {
     id: 14,
-    name: "Sven Van Düren",
-    phone: "+49 (0)28 26 / 91 50 – 0",
-    email: "sven.vandueren@stauden-peters.de",
-    positionDe: "PRODUKTION",
-    positionEn: "Production",
-    image: "/MainTeam/Sven.jpg",
-  },
-  {
-    id: 15,
     name: "Silviya Chakarova",
     phone: "+49 (0)28 26 / 91 50 - 55",
     email: "silviya.chakarova@stauden-peters.de",
@@ -137,7 +137,7 @@ const people = [
     image: "/MainTeam/silviya.jpg",
   },
   // {
-  //   id: 16,
+  //   id: 15,
   //   name: "Kiran Shah",
   //   phone: "",
   //   email: "",
@@ -167,9 +167,36 @@ const Team = () => {
         </div>
 
         {/* team Photos */}
- 
+
+        <div className="flex flex-col shadow-xl rounded-b-2xl mx-auto max-w-xs my-12 ">
+          <div className="rounded-md w-36 h-36 overflow-hidden mx-auto  mb-2">
+            <img
+              className="w-full h-full   hover:scale-[102%] duration-300 object-cover transition-all"
+              src={people[0].image}
+              alt=""
+            />
+          </div>
+          <div className="text-center">
+            <div className="flex flex-col">
+              <h2 className="text-sm font-semibold text-blue-900 dark:text-white capitalize">
+                {people[0].name}
+              </h2>
+              <p className="block text-xs text-blue-500 capitalize dark:text-blue-300">
+                {people[0].positionDe}
+              </p>
+              <p className="text-sm text-gray-500 dark:text-gray-400 leading-7">
+                {people[0].phone}
+              </p>
+              <p className="mb-6 text-xs text-gray-500 dark:text-gray-400">
+                {people[0].email}
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 gap-y-12 gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
-          {people.map((person, index) => (
+          {/* First item full width */}
+          {people.slice(1).map((person, index) => (
             <div
               key={index}
               className="flex flex-col shadow-xl px-4 rounded-b-2xl mx-auto w-full"

@@ -4,6 +4,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { RxHeight, RxWidth } from "react-icons/rx";
+import { PiSnowflakeThin } from "react-icons/pi";
+import { IoSunnyOutline } from "react-icons/io5";
 
 const ProductDetailPage = () => {
   const [selectedImage, setSelectedImage] = useState(0);
@@ -11,12 +14,18 @@ const ProductDetailPage = () => {
   // Sample product data - replace with your CMS/data source
   const product = {
     id: 1,
-    name: "Blue Fescue Grass",
-    scientificName: "Festuca glauca",
+    name: "Acorus Gramineus",
+    scientificName: "Ogon",
     price: 8.99,
-    category: "Ornamental Grasses",
-    images: ["/about-us.jpg", "/image1.jpg", "/image2.jpg", "/image3.jpg"],
-    description: "A stunning ornamental grass with silvery-blue foliage",
+    category: "elegrass",
+    images: [
+      "/product_01.jpg",
+      "/product_02.jpg",
+      "/product_03.jpg",
+      "/image3.jpg",
+    ],
+    description:
+      "Acorus gramineus – eine elegante, grasähnliche Staude mit schmalen, leuchtend grünen Blättern. Sie gedeiht in feuchten Böden, eignet sich perfekt für Teichränder oder Pflanzgefäße und bringt Struktur sowie natürliche Bewegung in den Garten. Pflegeleicht, robust und ideal für moderne wie traditionelle Gartengestaltungen.",
     features: [
       "Drought-tolerant",
       "Low maintenance",
@@ -24,10 +33,10 @@ const ProductDetailPage = () => {
       "Year-round interest",
     ],
     specifications: {
-      height: "12-18 inches",
-      diameter: "6-9 inches",
-      hardiness: "Zones 4-8",
-      light: "Full Sun",
+      height: "30 cm",
+      diameter: "30 cm",
+      hardiness: "-20 °C",
+      light: "Sonne-Halbschatten",
       water: "Low",
       growth: "Moderate",
       bloomTime: "Summer",
@@ -42,30 +51,29 @@ const ProductDetailPage = () => {
   };
 
   return (
-    <div className="flex flex-col mt-10 lg:mt-14 py-12 md:py-16 lg:py-20 container">
+    <div className="padding h-[100vh] xl:flex-row gap-16 py-12 md:py-16 xl:py-24 text-center xl:text-left items-stretch w-full max-w-[2000px] mx-auto">
       <div>
         {/* Main Product Section */}
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-24 ">
           {/* Image Gallery */}
-          <div className="space-y-4 ">
+          <div className="space-y-6">
             {/* Main Image */}
-            <div className="relative aspect-square rounded-xl overflow-hidden bg-white shadow-lg max-w-md mx-auto md:mx-0">
+            <div className=" relative h-full w-full  rounded-xl overflow-hidden bg-white shadow-lg">
               <Image
                 src={product.images[selectedImage]}
                 alt={product.name}
                 layout="fill"
-                objectFit="cover"
-                className="hover:scale-105 transition-transform"
+                className="min-h-[300px]"
               />
             </div>
 
             {/* Thumbnails */}
-            <div className="grid grid-cols-4 gap-4 max-w-md mx-auto md:mx-0">
+            <div className=" grid grid-cols-4 mt-4 gap-6 min-w-md mx-auto">
               {product.images.map((img, index) => (
                 <button
                   key={index}
                   onClick={() => setSelectedImage(index)}
-                  className={`relative aspect-square rounded-lg overflow-hidden border-2 ${
+                  className={`relative aspect-square border-gray-400 rounded-lg overflow-hidden border-2 ${
                     selectedImage === index
                       ? "border-blue-500"
                       : "border-transparent"
@@ -94,35 +102,50 @@ const ProductDetailPage = () => {
             </div>
 
             {/* Key Features */}
-       
 
             {/* Plant Specifications */}
-            <div className="bg-blue-50 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-3 text-blue-900">
-              Pflanzenspezifikationen
+            <div className="bg-blue-50 md:w-2/3 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-4 text-blue-900">
+                Pflanzenspezifikationen
               </h3>
               {/* <h3 className="text-lg font-semibold mb-3 text-blue-900">
                 Plant Specifications
               </h3> */}
-              <div className="grid gap-6 text-sm text-muted-foreground">
-                <div className="flex justify-between border-b pb-1">
-                  <span className=" capitalize">height:</span>
-                  <span className="">{product.specifications.height}</span>
+              <div className="grid   gap-4 space-x-4 text-sm text-muted-foreground">
+                <div className="flex justify-between items-center  border-b pb-1">
+                  <div className="flex items-center gap-4">
+                    <RxHeight className="h-8 w-8 rounded bg-priColor text-white p-1 " />
+                    <span className="capitalize">Höhe:</span>
+                  </div>
+                  <p className="">{product.specifications.height}</p>
                 </div>
                 <div className="flex justify-between border-b pb-1">
-                  <span className=" capitalize">diameter:</span>
-                  <span className="">{product.specifications.diameter}</span>
+                  <div className="flex items-center gap-4">
+                    <PiSnowflakeThin className="h-8 w-8 rounded bg-priColor text-white p-1 " />
+                    <span className="capitalize">Durchmesser:</span>
+                  </div>
+                  <p>{product.specifications.hardiness}</p>
                 </div>
                 <div className="flex justify-between border-b pb-1">
-                  <span className=" capitalize">hardiness:</span>
-                  <span className="">{product.specifications.hardiness}</span>
+                  <div className="flex items-center gap-4">
+                    <RxWidth className="h-8 w-8 rounded bg-priColor text-white p-1 " />
+                    <span className="capitalize">Winterhart:</span>
+                  </div>
+                  <p>{product.specifications.diameter}</p>
                 </div>
                 <div className="flex justify-between border-b pb-1">
-                  <span className=" capitalize">light:</span>
-                  <span className="">{product.specifications.light}</span>
+                  <div className="flex items-center gap-4">
+                    <IoSunnyOutline className="h-8 w-8 rounded bg-priColor text-white p-1 " />
+                    <span className="capitalize">Leichte:</span>
+                  </div>
+                  <p>{product.specifications.light}</p>
                 </div>
-             
               </div>
+            </div>
+            <div className="mt-8">
+              <p className="flex-wrap text-muted-foreground text-sm leading-7 text-justify">
+                {product.description}
+              </p>
             </div>
           </div>
         </div>

@@ -21,7 +21,7 @@ const Features = () => {
               Sustainably grown, robust, and diverse – our perennials and
               grasses combine beauty with ecological responsibility.
             </p> */}
-            <p className=" text-muted-foreground text-sm leading-7 xl:text-base text-justify">
+            <p className=" text-muted-foreground text-sm leading-7 text-justify">
               Nachhaltig angebaut, robust & artenreich – unsere Stauden und
               Gräser vereinen Schönheit mit ökologischer Verantwortung.
             </p>
@@ -33,17 +33,21 @@ const Features = () => {
               className="max-w-[400px] mx-auto
              bg-white flex flex-col gap-2 p-6 pb-2  rounded-lg transition-all ease-linear duration-300 shadow-lg hover:scale-[101%] hover:-rotate-1 "
             >
-              <h2 className=" text-xl font-semibold text-blue-900 ">Grasses</h2>
+              <img
+                src="/grass.png"
+                alt=""
+                className="h-auto max-h-16 w-auto max-w-full object-contain"
+              />
 
               <div className=" overflow-hidden">
                 <img
                   className=" w-full h-[200px] 2xl:h-[230px]  rounded-md  object-cover"
-                  src="/s1.png"
+                  src="/grass_main.jpg"
                   alt=""
                 />
               </div>
 
-              <p className="mb-2 text-muted-foreground text-sm leading-7 xl:text-base ">
+              <p className="mb-2 text-muted-foreground text-sm leading-7 ">
                 Unsere Gräser bringen Struktur und Bewegung in jeden Garten und
                 sind das ganze Jahr über interessant.
               </p>
@@ -52,21 +56,23 @@ const Features = () => {
               className="max-w-[400px] mx-auto
              bg-white flex flex-col gap-2 p-6 pb-2  rounded-lg transition-all ease-linear duration-300 shadow-lg hover:scale-[101%]  "
             >
-              <h2 className=" text-xl font-semibold  text-blue-900 ">
-                Perinnials
-              </h2>
+              <img
+                src="/gardens.png"
+                alt=""
+                className="h-auto max-h-16 w-auto max-w-full object-contain"
+              />
 
               <div className=" overflow-hidden">
                 <img
                   className=" w-full h-[200px] 2xl:h-[230px]  rounded-md  object-cover"
-                  src="/featureBox1.jpg"
+                  src="/gardens_main.jpg"
                   alt=""
                 />
               </div>
 
-              <p className="mb-2 text-muted-foreground text-sm leading-7 xl:text-base">
+              <p className="mb-2 text-muted-foreground text-sm leading-7 ">
                 Unsere Stauden liefern Saison für Saison mühelose Farbe und
-                Struktur und sind tief in der Nachhaltigkeit verwurzelt. 
+                Struktur und sind tief in der Nachhaltigkeit verwurzelt.
               </p>
               {/* <p className="mb-2 text-muted-foreground text-sm leading-7">
               Our perennials deliver effortless color and texture season after season, with deep roots in sustainability.
@@ -76,19 +82,21 @@ const Features = () => {
               className="max-w-[400px] mx-auto
              bg-white flex flex-col gap-2 p-6 pb-2  rounded-lg transition-all ease-linear duration-300 shadow-lg hover:scale-[101%] hover:rotate-1 "
             >
-              <h2 className=" text-xl font-semibold  text-blue-900 ">
-                Peonies
-              </h2>
+              <img
+                src="/rose.png"
+                alt=""
+                className="h-auto max-h-16 w-auto max-w-full object-contain"
+              />
 
               <div className=" overflow-hidden">
                 <img
                   className=" w-full h-[200px] 2xl:h-[230px]  rounded-md  object-cover"
-                  src="/connectNature.jpg"
+                  src="/rose_main.jpg"
                   alt=""
                 />
               </div>
 
-              <p className="mb-2 text-muted-foreground text-sm leading-7 xl:text-base">
+              <p className="mb-2 text-muted-foreground text-sm leading-7 ">
                 Unsere Pfingstrosen blühen Jahr für Jahr atemberaubend und
                 duftend und werden mit der Zeit immer prächtiger.
               </p>

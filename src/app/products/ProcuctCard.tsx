@@ -37,23 +37,24 @@ type ProductCardProps = {
 export const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <Link href={`/products/${product.id}`}>
-      <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow max-w-[300px] w-full">
-        <div className="relative h-72 rounded-t-lg overflow-hidden">
+      <div className="bg-white  shadow-md hover:shadow-lg transition-shadow max-w-[300px] w-full">
+        <div className="relative h-80 overflow-hidden">
           <img
             src={product.image}
             alt={product.name}
             className="w-full h-full object-cover"
           />
+          <p className="absolute right-2 top-2 rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-priColor">
+            {product.category}
+          </p>
         </div>
 
-        <div className="p-4">
-          <span className="text-sm bg-blue-100 px-1.5 py-1 rounded-lg">
-            {product.category}
-          </span>
-          <h3 className="font-semibold mt-2 mb-1 text-priColor">
-            {product.name}
-          </h3>
-          <p className="text-muted-foreground text-sm">{product.subName}</p>
+        <div
+          className="px-4 pt-1 pb-10"
+          style={{ backgroundColor: `${product.color}` }}
+        >
+          <h3 className="font-medium  mt-2 mb-1 text-white">{product.name}</h3>
+          <p className=" text-white text-xs italic">{product.subName}</p>
           {/* <div className="flex flex-col text-sm mb-2 gap-1">
             <div className="flex items-center gap-4 mt-1">
               <div className="flex gap-2">
