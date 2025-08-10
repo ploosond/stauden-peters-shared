@@ -38,23 +38,27 @@ const TestimonialSlider = () => {
                   </span>
                   <img
                     className="object-cover w-full h-full rounded-full"
-                    src="https://i.postimg.cc/gk8KvyTN/ehsan-ahmadi-vs-Wy6nchc-Os-unsplash.jpg"
+                    src="bikram_01.jpeg"
                     alt=""
                   />
                 </div>
                 <div className="info">
                   <h2 className="text-sm font-semibold text-blue-900 dark:text-white capitalize">
-                    Hugh Denims
+                    Bikram Adhikari
                   </h2>
                   <span className="block text-xs text-blue-500 capitalize dark:text-blue-300">
-                    Gardner
+                    Praktikum
                   </span>
                 </div>
               </div>
               <p className="text-muted-foreground text-sm leading-7 text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-                quidem ea necessitatibus voluptates aliquid rerum officiis
-                explicabo laborum molestiae id.
+                Mein Praktikum im Supply Chain Management bei Stauden Peters GbR
+                war eine bereichernde Erfahrung. Ich konnte wertvolle
+                Praxiserfahrung sammeln, spannende Projekte umsetzen und in
+                einem motivierten Team arbeiten, das Professionalität und
+                Leidenschaft vereint. Diese Zeit hat meine fachlichen
+                Fähigkeiten gestärkt und meinen Karriereweg entscheidend
+                geprägt.
               </p>
             </div>
           </div>

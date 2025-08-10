@@ -12,7 +12,7 @@ const VideoModal = ({
       <div className="relative w-full max-w-[1024px] aspect-video px-2">
         <iframe
           className="w-full h-full rounded-xl"
-          src="https://www.youtube.com/embed/5clOYWsNhhk?si=WMHSGYGSkX5IOQwx"
+          src="https://www.youtube.com/embed/ZBAbDJOZ80g?autoplay=1&mute=1"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
